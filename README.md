@@ -48,7 +48,4 @@ Set journal_entry as the variable name inside the Prompt Template.
 
 4. Run it!
 Click Playground.
-
 Enter journal text.
-
-Get emotional analysis + tips!
