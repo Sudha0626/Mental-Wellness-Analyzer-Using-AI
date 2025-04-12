@@ -5,32 +5,27 @@
 
 This project is a LangChain-based application designed to help users analyze their daily journal entries and receive motivational feedback. It uses an open-source LLM (Mistral-7B-Instruct) via Hugging Face and is built using [Langflow](https://astra.datastax.com/langflow).
 
----
-
-## 🎯 Objective
+##  Objective
 
 Allow users to:
 - Input daily emotional journal entries.
 - Receive an **emotional tone analysis**, **recurring themes**, and **personalized motivational tips**.
 
----
-
-## ⚙️ Tech Stack
+##  Tech Stack
 
 - **Langflow** (visual chain building for LangChain)
 - **Hugging Face Inference API**
 - **Mistralai/Mistral-7B-Instruct-v0.3** (open-source LLM)
 - Optional: **Streamlit** for final UI (deployment-ready)
   
----
 
-## 🛠️ Functional Overview
+##  Functional Overview
 
-### 🔹 User Input
+###  User Input
 - Simple **Text Input** or **Chat Input** component in Langflow.
 - Users write their daily emotional experiences.
 
-### 🔹 LLM Prompt
+###  LLM Prompt
 Prompt sent to LLM:
 ```
 Analyze the following journal entry: {journal_entry}. 
@@ -38,14 +33,14 @@ Determine the emotional tone, identify recurring themes,
 and provide personalized motivational advice.
 ```
 
-### 🔹 Output
+###  Output
 - **Emotional Analysis**
 - **Themes/Sentiments**
 - **Personalized Motivational Tips**
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ###  1. Clone & Setup
 
@@ -76,7 +71,6 @@ Make sure you have access to [Langflow via Astra](https://astra.datastax.com/lan
 - Enter journal text.
 - Get emotional analysis + tips!
 
----
 
 ##  Future Enhancements
 
@@ -85,7 +79,6 @@ Make sure you have access to [Langflow via Astra](https://astra.datastax.com/lan
 - Streamlit UI deployment on Hugging Face Spaces.
 - Mental wellness resources integration.
 
----
 
 
 ## 🤝 Acknowledgements
@@ -94,10 +87,7 @@ Make sure you have access to [Langflow via Astra](https://astra.datastax.com/lan
 - [Hugging Face](https://huggingface.co)
 - [Langflow](https://astra.datastax.com/langflow)
 
----
 
 ## 💬 Feedback
 
 Feel free to raise issues or contribute via pull requests!
-
-```
